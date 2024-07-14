@@ -1,5 +1,5 @@
 const admin = require("firebase-admin");
-const serviceAccount = require("./path/to/serviceAccountKey.json");
+const serviceAccount = require("citavirtualchat-firebase-adminsdk-4d4jb-0d23f0f57f.json");
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
